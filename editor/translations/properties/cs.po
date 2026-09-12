@@ -47,13 +47,16 @@
 # Jan Matějka <controlcommanddev@gmail.com>, 2025.
 # Pixeluted <pixeluted@proton.me>, 2025.
 # Jakub Szydlowski <kubkii27@gmail.com>, 2026.
+# NoNormal <no123normal@gmail.com>, 2026.
+# Adam Mezera <aadaanmez@gmail.com>, 2026.
+# quenia <queniaVT@proton.me>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine properties\n"
 "Report-Msgid-Bugs-To: https://github.com/godotengine/godot\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-05-24 11:13+0000\n"
-"Last-Translator: Jakub Szydlowski <kubkii27@gmail.com>\n"
+"PO-Revision-Date: 2026-07-18 18:02+0000\n"
+"Last-Translator: quenia <queniaVT@proton.me>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/godot-engine/godot-"
 "properties/cs/>\n"
 "Language: cs\n"
@@ -61,7 +64,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.8.dev0\n"
 
 msgid "Application"
 msgstr "Aplikace"
@@ -133,7 +136,7 @@ msgid "Accessibility Support"
 msgstr "Podpora dostupnosti"
 
 msgid "Updates per Second"
-msgstr "Aktualizace za Sekundu"
+msgstr "Aktualizace za sekundu"
 
 msgid "Display"
 msgstr "Zobrazení"
@@ -187,13 +190,16 @@ msgid "Minimize Disabled"
 msgstr "Vypnutá minimalizace"
 
 msgid "Maximize Disabled"
-msgstr "Maximalizace Vypnuta"
+msgstr "Vypnutá maximalizace"
 
 msgid "Window Width Override"
 msgstr "Přepsání šířky okna"
 
 msgid "Window Height Override"
 msgstr "Přepsání výšky okna"
+
+msgid "HDR"
+msgstr "HDR"
 
 msgid "Energy Saving"
 msgstr "Úspora energie"
@@ -463,7 +469,7 @@ msgid "Collada"
 msgstr "Collada"
 
 msgid "Use Ambient"
-msgstr "Použít ambientní světlo"
+msgstr "Použít ambientní"
 
 msgid "Input Devices"
 msgstr "Vstupní zařízení"
@@ -481,7 +487,7 @@ msgid "Rotary Input Scroll Axis"
 msgstr "Rotační vstupní osa rolování"
 
 msgid "Override Volume Buttons"
-msgstr "Přepsat tlačítko hlasitosti"
+msgstr "Přepsat tlačítka hlasitosti"
 
 msgid "Disable Scroll Deadzone"
 msgstr "Vypnout mrtvou zónu posunu"
@@ -526,7 +532,7 @@ msgid "Baking Use High Priority Threads"
 msgstr "Použít vysokoprioritní vlákna pro vypalování"
 
 msgid "Editor Overrides"
-msgstr "Editor Přepisuje"
+msgstr "Přepsání Editoru"
 
 msgid "Low Processor Usage Mode"
 msgstr "Režim nízkého využití procesoru"
@@ -909,12 +915,6 @@ msgstr "Koncový offset"
 msgid "Easing"
 msgstr "Vyhlazení"
 
-msgid "Asset Library"
-msgstr "Knihovna zdrojů (AssetLib)"
-
-msgid "Available URLs"
-msgstr "Dostupné URL"
-
 msgid "Debug Adapter"
 msgstr "Adaptér ladění"
 
@@ -1016,6 +1016,9 @@ msgstr "Exportovat pouze projekt"
 
 msgid "Delete Old Export Files Unconditionally"
 msgstr "Bezpodmínečně smazat staré soubory exportu"
+
+msgid "Camera"
+msgstr "Kamera"
 
 msgid "Plugins"
 msgstr "Zásuvné moduly"
@@ -1428,6 +1431,9 @@ msgstr "Název kořenového uzlu"
 msgid "Root Script"
 msgstr "Kořen Skriptu"
 
+msgid "Mesh Library"
+msgstr "Knihovna sítí"
+
 msgid "Apply Root Scale"
 msgstr "Použít měřítko kořenového uzlu"
 
@@ -1635,6 +1641,12 @@ msgstr "Rozvržení"
 msgid "Saturation"
 msgstr "Saturace"
 
+msgid "Fix Alpha Border"
+msgstr "Spravit alfa okraj"
+
+msgid "Premult Alpha"
+msgstr "Přednásobit alfa"
+
 msgid "Normal Map"
 msgstr "Normálová mapa"
 
@@ -1658,12 +1670,6 @@ msgstr "Modrá"
 
 msgid "Alpha"
 msgstr "Alfa"
-
-msgid "Fix Alpha Border"
-msgstr "Spravit alfa okraj"
-
-msgid "Premult Alpha"
-msgstr "Přednásobit alfa"
 
 msgid "Normal Map Invert Y"
 msgstr "Invertovat Y normálové mapy"
@@ -1870,8 +1876,26 @@ msgstr "Barvy gizma"
 msgid "Particles Emission Shape"
 msgstr "Tvar emise částic"
 
+msgid "Mesh"
+msgstr "Síť"
+
+msgid "Shapes"
+msgstr "Tvary"
+
+msgid "Navigation Mesh"
+msgstr "Navigační síť"
+
+msgid "Navigation Layers"
+msgstr "Navigační vrstvy"
+
+msgid "Preview"
+msgstr "Náhled"
+
 msgid "Interface"
 msgstr "Rozhraní"
+
+msgid "Localization"
+msgstr "Lokalizace"
 
 msgid "Editor Language"
 msgstr "Jazyk editoru"
@@ -1879,11 +1903,20 @@ msgstr "Jazyk editoru"
 msgid "Use Threads"
 msgstr "Použít vlákna"
 
+msgid "Available URLs"
+msgstr "Dostupné URL"
+
 msgid "Localize Settings"
 msgstr "Lokalizovat nastavení"
 
+msgid "Docks"
+msgstr "Doky"
+
 msgid "UI Layout Direction"
 msgstr "Směr rozvržení uživatelského rozhraní"
+
+msgid "Appearance"
+msgstr "Vzhled"
 
 msgid "Display Scale"
 msgstr "Měřítko zobrazení"
@@ -1893,6 +1926,9 @@ msgstr "Vlastní měřítko zobrazení"
 
 msgid "Editor Screen"
 msgstr "Obrazovka editoru"
+
+msgid "Input"
+msgstr "Vstup"
 
 msgid "Project Manager Screen"
 msgstr "Obrazovka správce projektů"
@@ -1939,6 +1975,9 @@ msgstr "Hlavní font tučný"
 msgid "Code Font"
 msgstr "Font kódu"
 
+msgid "Behavior"
+msgstr "Chování"
+
 msgid "Separate Distraction Mode"
 msgstr "Oddělit nerozptylující režim"
 
@@ -1978,14 +2017,8 @@ msgstr "Aktualizovat průběžně"
 msgid "Collapse Main Menu"
 msgstr "Minimalizovat hlavní menu"
 
-msgid "Show Scene Tree Root Selection"
-msgstr "Zobrazit výběr kořenu stromu scény"
-
 msgid "Derive Script Globals by Name"
 msgstr "Odvodit globální skripty z názvu"
-
-msgid "Docks"
-msgstr "Doky"
 
 msgid "Scene Tree"
 msgstr "Strom scény"
@@ -2099,7 +2132,7 @@ msgid "Auto Select Current Scene File"
 msgstr "Automaticky zvolit soubor aktuální scény"
 
 msgid "Restore Windows on Load"
-msgstr "Obnovit Windows při načtení"
+msgstr "Obnovit Okna při načtení"
 
 msgid "Maximize Window"
 msgstr "Maximalizovat okno"
@@ -2278,9 +2311,6 @@ msgstr "Seznam varování"
 msgid "Notice List"
 msgstr "Seznam upozornění"
 
-msgid "Appearance"
-msgstr "Vzhled"
-
 msgid "Enable Inline Color Picker"
 msgstr "Povolit vestavěný výběr barev"
 
@@ -2358,9 +2388,6 @@ msgstr "Vykreslit mezery"
 
 msgid "Line Spacing"
 msgstr "Řádkování"
-
-msgid "Behavior"
-msgstr "Chování"
 
 msgid "Empty Selection Clipboard"
 msgstr "Prázdný výběr do schránky"
@@ -2547,9 +2574,6 @@ msgstr "AABB (Osově rovnoběžný ohraňičující box)"
 
 msgid "Stream Player 3D"
 msgstr "3D stream přehrávač"
-
-msgid "Camera"
-msgstr "Kamera"
 
 msgid "Decal"
 msgstr "Nálepka"
@@ -2881,6 +2905,21 @@ msgstr "Povolit TLS V 1"
 msgid "Remote Host"
 msgstr "Vzdálený host"
 
+msgid "Language Server"
+msgstr "Jazykový server"
+
+msgid "Enable Smart Resolve"
+msgstr "Povolit funkci chytrého řešení"
+
+msgid "Show Native Symbols in Editor"
+msgstr "Zobrazit nativní symboly v editoru"
+
+msgid "Use Thread"
+msgstr "Použít vlákno"
+
+msgid "Poll Limit (µsec)"
+msgstr "Limit dotazů (µsec)"
+
 msgid "Debugger"
 msgstr "Ladicí program"
 
@@ -2907,9 +2946,6 @@ msgstr "Cesta k veřejnému klíči SSH"
 
 msgid "SSH Private Key Path"
 msgstr "Cesta k soukromému klíči SSH"
-
-msgid "Input"
-msgstr "Vstup"
 
 msgid "Buffering"
 msgstr "Práce vyrovnávací paměti"
@@ -3382,9 +3418,6 @@ msgstr "Priorita kolize"
 msgid "Flip Faces"
 msgstr "Převrátit stěny"
 
-msgid "Mesh"
-msgstr "Síť"
-
 msgid "Material"
 msgstr "Materiál"
 
@@ -3478,20 +3511,17 @@ msgstr "Maximální velikost zásobníku volání"
 msgid "Renamed in Godot 4 Hint"
 msgstr "Nápověda přejmenování v Godotu 4"
 
-msgid "Language Server"
-msgstr "Jazykový server"
+msgid "Redundant Await"
+msgstr "Nepotřebné Await"
 
-msgid "Enable Smart Resolve"
-msgstr "Povolit funkci chytrého řešení"
+msgid "Assert Always True"
+msgstr "Assert Vždy True"
 
-msgid "Show Native Symbols in Editor"
-msgstr "Zobrazit nativní symboly v editoru"
+msgid "Assert Always False"
+msgstr "Assert Vždy False"
 
-msgid "Use Thread"
-msgstr "Použít vlákno"
-
-msgid "Poll Limit (µsec)"
-msgstr "Limit dotazů (µsec)"
+msgid "Integer Division"
+msgstr "Dělení Čísel"
 
 msgid "Copyright"
 msgstr "Copyright"
@@ -3792,9 +3822,6 @@ msgstr "Obalení S"
 
 msgid "Wrap T"
 msgstr "Obalení T"
-
-msgid "Mesh Library"
-msgstr "Knihovna sítí"
 
 msgid "Physics Material"
 msgstr "Fyzikální materiál"
@@ -4306,6 +4333,114 @@ msgstr "Naše adresa IGD"
 msgid "IGD Status"
 msgstr "Stav IGD"
 
+msgid "Output Port for Preview"
+msgstr "Výstupní port pro náhled"
+
+msgid "Modes"
+msgstr "Režimy"
+
+msgid "Flags"
+msgstr "Příznaky"
+
+msgid "Input Name"
+msgstr "Název vstupu"
+
+msgid "Parameter Name"
+msgstr "Název parametru"
+
+msgid "Qualifier"
+msgstr "Kvalifikátor"
+
+msgid "Tint Color Enabled"
+msgstr "Povolena barva odstínu"
+
+msgid "Tint Color"
+msgstr "Barva odstínu"
+
+msgid "Autoshrink"
+msgstr "Automatické zmenšení"
+
+msgid "Expression"
+msgstr "Výraz"
+
+msgid "Varying Name"
+msgstr "Název interpolované proměnné"
+
+msgid "Varying Type"
+msgstr "Typ interpolované proměnné"
+
+msgid "Op Type"
+msgstr "Typ operace"
+
+msgid "Constant"
+msgstr "Konstantní"
+
+msgid "Source"
+msgstr "Zdroj"
+
+msgid "Texture Type"
+msgstr "Typ textury"
+
+msgid "Texture Array"
+msgstr "Pole textur"
+
+msgid "Cube Map"
+msgstr "Krychlová mapa"
+
+msgid "Operator"
+msgstr "Operátor"
+
+msgid "Function"
+msgstr "Funkce"
+
+msgid "Hint"
+msgstr "Nápověda"
+
+msgid "Step"
+msgstr "Krok"
+
+msgid "Default Value Enabled"
+msgstr "Povolena výchozí hodnota"
+
+msgid "Default Value"
+msgstr "Výchozí hodnota"
+
+msgid "Enum Names"
+msgstr "Názvy výčtu"
+
+msgid "Color Default"
+msgstr "Výchozí barva"
+
+msgid "Texture Filter"
+msgstr "Filtr textury"
+
+msgid "Texture Repeat"
+msgstr "Opakování textury"
+
+msgid "Texture Source"
+msgstr "Zdroj textury"
+
+msgid "Condition"
+msgstr "Podmínka"
+
+msgid "Billboard Type"
+msgstr "Typ billboardu"
+
+msgid "Keep Scale"
+msgstr "Zachovat měřítko"
+
+msgid "Mode 2D"
+msgstr "2D režim"
+
+msgid "Use All Surfaces"
+msgstr "Použít všechny povrchy"
+
+msgid "Surface Index"
+msgstr "Index povrchu"
+
+msgid "Degrees Mode"
+msgstr "Režim stupňů"
+
 msgid "WebRTC"
 msgstr "WebRTC"
 
@@ -4351,6 +4486,15 @@ msgstr "Povolené funkce"
 msgid "Visibility State"
 msgstr "Stav viditelnosti"
 
+msgid "Install Exported APK"
+msgstr "Spusit exportované APK"
+
+msgid "Java SDK Path"
+msgstr "Cesta Java SDK"
+
+msgid "scrcpy"
+msgstr "scrcpy"
+
 msgid "Force System User"
 msgstr "Vynutit systémového uživatele"
 
@@ -4365,6 +4509,9 @@ msgstr "Použít pro vzdálené ladění Wi-Fi"
 
 msgid "Wi-Fi Remote Debug Host"
 msgstr "Host pro vzdálené ladění přes Wi-Fi"
+
+msgid "Background Color"
+msgstr "Barva pozadí"
 
 msgid "Launcher Icons"
 msgstr "Ikony systémového prostředí"
@@ -4392,6 +4539,9 @@ msgstr "Adresář Gradle sestavení"
 
 msgid "Android Source Template"
 msgstr "Zdrojová Android šablona"
+
+msgid "Compress Native Libraries"
+msgstr "Komprimovat Nativní Knihovny"
 
 msgid "Export Format"
 msgstr "Formát exportu"
@@ -4468,6 +4618,9 @@ msgstr "Zavřít přejetím prstu"
 msgid "Immersive Mode"
 msgstr "Imerzivní režim"
 
+msgid "Edge to Edge"
+msgstr "Hrana do Hrany"
+
 msgid "Support Small"
 msgstr "Podpora malých"
 
@@ -4479,9 +4632,6 @@ msgstr "Podpora velkých"
 
 msgid "Support Xlarge"
 msgstr "Podpora extra velkých"
-
-msgid "Background Color"
-msgstr "Barva pozadí"
 
 msgid "User Data Backup"
 msgstr "Záloha uživatelských dat"
@@ -4495,20 +4645,14 @@ msgstr "Příkazový řádek"
 msgid "Extra Args"
 msgstr "Další argumenty"
 
-msgid "APK Expansion"
-msgstr "APK rozšíření"
-
-msgid "Salt"
-msgstr "Sůl"
-
-msgid "Public Key"
-msgstr "Veřejný klíč"
-
 msgid "Permissions"
 msgstr "Oprávnění"
 
 msgid "Custom Permissions"
 msgstr "Vlastní oprávnění"
+
+msgid "iOS Deploy"
+msgstr "iOS Nasazení"
 
 msgid "Targeted Device Family"
 msgstr "Cílená rodina zařízení"
@@ -4602,6 +4746,9 @@ msgstr "Skript čištění"
 
 msgid "Distribution Type"
 msgstr "Typ distribuce"
+
+msgid "Liquid Glass Icon"
+msgstr "Ikona Liquid Glass"
 
 msgid "Copyright Localized"
 msgstr "Lokalizovaný copyright"
@@ -4876,6 +5023,9 @@ msgstr "Ikona 180 x 180"
 msgid "Icon 512 X 512"
 msgstr "Ikona 512 x 512"
 
+msgid "Emscripten Pool Size"
+msgstr "Velikost Emscripten Pool"
+
 msgid "Identity Type"
 msgstr "Typ identity"
 
@@ -4939,6 +5089,9 @@ msgstr "Překlopit vertikálně"
 msgid "Current"
 msgstr "Aktuální"
 
+msgid "Stream Paused"
+msgstr "Zastavený Stream"
+
 msgid "Max Distance"
 msgstr "Maximální vzdálenost"
 
@@ -4947,6 +5100,9 @@ msgstr "Útlum"
 
 msgid "Max Polyphony"
 msgstr "Maximální polyfonie"
+
+msgid "Area Mask"
+msgstr "Maska Oblasti"
 
 msgid "Copy Mode"
 msgstr "Režim kopírování"
@@ -4974,6 +5130,9 @@ msgstr "Spodní"
 
 msgid "Smoothed"
 msgstr "Vyhlazený"
+
+msgid "Drag"
+msgstr "Táhnout"
 
 msgid "Horizontal Enabled"
 msgstr "Horizontální orientace povolena"
@@ -5295,9 +5454,6 @@ msgstr "Požadovaná vzdálenost cíle"
 
 msgid "Path Max Distance"
 msgstr "Maximální vzdálenost cesty"
-
-msgid "Navigation Layers"
-msgstr "Navigační vrstvy"
 
 msgid "Pathfinding Algorithm"
 msgstr "Algoritmus pro hledání cest"
@@ -5672,8 +5828,17 @@ msgstr "Index kosti"
 msgid "Override Pose"
 msgstr "Přepsat pózu"
 
+msgid "Keep Aspect"
+msgstr "Zachovat Aspekt"
+
 msgid "Cull Mask"
 msgstr "Maska vyřazení"
+
+msgid "Attributes"
+msgstr "Vlastnosti"
+
+msgid "Far"
+msgstr "Daleký"
 
 msgid "Visibility AABB"
 msgstr "Přepnout viditelnost AABB"
@@ -5787,9 +5952,6 @@ msgstr "Deterministické"
 msgid "Pixel Size"
 msgstr "Velikost pixelu"
 
-msgid "Flags"
-msgstr "Příznaky"
-
 msgid "Billboard"
 msgstr "Billboard"
 
@@ -5819,9 +5981,6 @@ msgstr "Režim alfa vyhlazování"
 
 msgid "Alpha Antialiasing Edge"
 msgstr "Hrana alfa vyzhlazování"
-
-msgid "Texture Filter"
-msgstr "Filtr textury"
 
 msgid "Render Priority"
 msgstr "Priorita vykreslování"
@@ -6006,6 +6165,9 @@ msgstr "Členění"
 msgid "Light Data"
 msgstr "Světelná data"
 
+msgid "Exclude"
+msgstr "Vynechat"
+
 msgid "Target Node"
 msgstr "Cílový uzel"
 
@@ -6088,9 +6250,6 @@ msgid "Keep Y Velocity"
 msgstr "Ponechat rychlost Y"
 
 msgid "NavigationMesh"
-msgstr "Navigační síť"
-
-msgid "Navigation Mesh"
 msgstr "Navigační síť"
 
 msgid "Quaternion"
@@ -6441,12 +6600,6 @@ msgstr "Diskrétní"
 msgid "Reset"
 msgstr "Resetovat"
 
-msgid "Condition"
-msgstr "Podmínka"
-
-msgid "Expression"
-msgstr "Výraz"
-
 msgid "Auto Capture Transition Type"
 msgstr "Automaticky zachytit typ přechodu"
 
@@ -6534,14 +6687,11 @@ msgstr "Velikosti fontu"
 msgid "Styles"
 msgstr "Styly"
 
-msgid "Clip Contents"
-msgstr "Oříznout obsah"
-
 msgid "Custom Minimum Size"
 msgstr "Vlastní minimální velikost"
 
-msgid "Layout Direction"
-msgstr "Směr rozvržení"
+msgid "Clip Contents"
+msgstr "Oříznout obsah"
 
 msgid "Layout Mode"
 msgstr "Režim rozvržení"
@@ -6567,11 +6717,11 @@ msgstr "Velikost kontejneru"
 msgid "Stretch Ratio"
 msgstr "Poměr roztažení"
 
-msgid "Localization"
-msgstr "Lokalizace"
-
 msgid "Localize Numeral System"
 msgstr "Lokalizovat systém číslic"
+
+msgid "Layout Direction"
+msgstr "Směr rozvržení"
 
 msgid "Tooltip"
 msgstr "Nápověda"
@@ -6699,12 +6849,6 @@ msgstr "Zobrazit tlačítka minimapy"
 msgid "Show Arrange Button"
 msgstr "Zobrazit tlačítko Uspořádat"
 
-msgid "Tint Color Enabled"
-msgstr "Povolena barva odstínu"
-
-msgid "Tint Color"
-msgstr "Barva odstínu"
-
 msgid "Select Mode"
 msgstr "Režim výběru"
 
@@ -6770,9 +6914,6 @@ msgstr "Minimální hodnota"
 
 msgid "Max Value"
 msgstr "Maximální hodnota"
-
-msgid "Step"
-msgstr "Krok"
 
 msgid "Page"
 msgstr "Strana"
@@ -6882,8 +7023,14 @@ msgstr "Lesklost"
 msgid "Download File"
 msgstr "Stáhnout soubor"
 
+msgid "Body Size Limit"
+msgstr "Limit velikosti Těla"
+
 msgid "Max Redirects"
 msgstr "Maximální počet přesměrování"
+
+msgid "Owner"
+msgstr "Vlastník"
 
 msgid "Thread Group"
 msgstr "Skupina vláken"
@@ -6891,8 +7038,11 @@ msgstr "Skupina vláken"
 msgid "Multiplayer Poll"
 msgstr "Hlasování více hráčů"
 
-msgid "Shapes"
-msgstr "Tvary"
+msgid "Shape Color"
+msgstr "Barva Tvaru"
+
+msgid "Geometry Color"
+msgstr "Barva Geometrie"
 
 msgid "Screen Space AA"
 msgstr "Vyhlazování prostoru obrazovky"
@@ -6911,6 +7061,9 @@ msgstr "Přichytit 2D transformace k pixelům"
 
 msgid "Snap 2D Vertices to Pixel"
 msgstr "Přichytit 2D vrcholy k pixelům"
+
+msgid "Lights and Shadows"
+msgstr "Světla a Stíny"
 
 msgid "SDF"
 msgstr "SDF"
@@ -7098,9 +7251,6 @@ msgstr "Transponovat"
 msgid "Item"
 msgstr "Položka"
 
-msgid "Preview"
-msgstr "Náhled"
-
 msgid "Add UV2"
 msgstr "Přidat UV2"
 
@@ -7128,9 +7278,6 @@ msgstr "Blízký přechod"
 msgid "Particles Anim Loop"
 msgstr "Smyčka animace částic"
 
-msgid "Source"
-msgstr "Zdroj"
-
 msgid "Mix"
 msgstr "Mix"
 
@@ -7139,12 +7286,6 @@ msgstr "Vlastnosti"
 
 msgid "Shader"
 msgstr "Shader"
-
-msgid "Operator"
-msgstr "Operátor"
-
-msgid "Keep Scale"
-msgstr "Zachovat měřítko"
 
 msgid "H Frames"
 msgstr "H snímky"
@@ -7193,84 +7334,6 @@ msgstr "Barva proměnných členů"
 
 msgid "File"
 msgstr "Soubor"
-
-msgid "Output Port for Preview"
-msgstr "Výstupní port pro náhled"
-
-msgid "Modes"
-msgstr "Režimy"
-
-msgid "Input Name"
-msgstr "Název vstupu"
-
-msgid "Parameter Name"
-msgstr "Název parametru"
-
-msgid "Qualifier"
-msgstr "Kvalifikátor"
-
-msgid "Autoshrink"
-msgstr "Automatické zmenšení"
-
-msgid "Varying Name"
-msgstr "Název interpolované proměnné"
-
-msgid "Varying Type"
-msgstr "Typ interpolované proměnné"
-
-msgid "Op Type"
-msgstr "Typ operace"
-
-msgid "Constant"
-msgstr "Konstantní"
-
-msgid "Texture Type"
-msgstr "Typ textury"
-
-msgid "Texture Array"
-msgstr "Pole textur"
-
-msgid "Cube Map"
-msgstr "Krychlová mapa"
-
-msgid "Function"
-msgstr "Funkce"
-
-msgid "Hint"
-msgstr "Nápověda"
-
-msgid "Default Value Enabled"
-msgstr "Povolena výchozí hodnota"
-
-msgid "Default Value"
-msgstr "Výchozí hodnota"
-
-msgid "Enum Names"
-msgstr "Názvy výčtu"
-
-msgid "Color Default"
-msgstr "Výchozí barva"
-
-msgid "Texture Repeat"
-msgstr "Opakování textury"
-
-msgid "Texture Source"
-msgstr "Zdroj textury"
-
-msgid "Billboard Type"
-msgstr "Typ billboardu"
-
-msgid "Mode 2D"
-msgstr "2D režim"
-
-msgid "Use All Surfaces"
-msgstr "Použít všechny povrchy"
-
-msgid "Surface Index"
-msgstr "Index povrchu"
-
-msgid "Degrees Mode"
-msgstr "Režim stupňů"
 
 msgid "Underline Spacing"
 msgstr "Mezera podtržení"
