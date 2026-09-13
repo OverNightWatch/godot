@@ -1,7 +1,7 @@
 @echo off
 cd ..
 
-scons platform=windows dev_build=True debug_symbols=True module_mono_enabled=True vsproj=True
+scons platform=windows dev_build=True debug_symbols=True module_mono_enabled=True vsproj=True vsproj_gen_only=False
 if errorlevel 1 goto error
 
 for %%G in (bin\godot.windows.editor.dev.*.mono.console.exe) do set GODOT_MONO_CONSOLE=%%G
